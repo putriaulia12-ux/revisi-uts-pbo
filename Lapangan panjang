@@ -1,0 +1,25 @@
+/*
+* Untuk mengubah tajuk lisensi ini, pilih Tajuk Lisensi di Properti Proyek.
+* Untuk mengganti file template ini, pilih Tools | Templat
+* dan buka templat di editor.
+*/
+paket  BangunDatar ;
+
+/**
+*
+* @penulis ASUS
+*/
+public  class  JalanPanjang  mengimplementasikan  BangunDatar {
+     int  pribadi panjang ;
+     lebar int  pribadi ;
+    
+    public  JalanPanjang ( int  panjang , int  lebar ) {
+        ini . panjang = panjang ;
+        ini . lebar = lebar ;
+    }
+    
+    @ Menimpa
+    publik  ganda  luas () {
+        return  panjang * lebar ;
+    }
+}
